@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-    console.log('%c >>> DOM loaded ', 'background: #222; color: #bada55');
+    console.log('%c >>> DOM loaded ', 'background: #222; color: #fcee21');
 
     let randomButton = document.getElementById('random_button');
 

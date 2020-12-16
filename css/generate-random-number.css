@@ -1,5 +1,5 @@
 :root {
-	--border-px: 1px;
+	--border-px: 0px;
 	--global-color: #337AB7;
 	/* --max-width: 500px; */
 	/* --main-font: 'Montserrat Alternates', sans-serif; */
@@ -8,7 +8,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	max-width: 802px;
+	max-width: 402px;
   height: auto;
   font-family: Arial, sans-serif;
   border: var(--border-px) solid black;
@@ -22,6 +22,10 @@
 }
 .logo {
   width: 100%;
+}
+.credentials {
+  margin-top: 40px;
+  font-size: 14px;
 }
 
 .textarea_wrapper {
