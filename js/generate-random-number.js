@@ -11,12 +11,12 @@ window.addEventListener('DOMContentLoaded', () => {
         let maxValue = document.getElementById('upto').value;
 
         winNumberSpan.textContent = '';
-        // randomNumberDiv.style.backgroundImage = 'url("/img/fireworks.gif?' + new Date().getTime() + '")';
-        randomNumberDiv.style.backgroundImage = 'url("./img/fireworks.gif")'; // GitHub temp fix
+        randomNumberDiv.style.backgroundImage = 'url("./img/fireworks.gif?' + new Date().getTime() + '")';
+        // randomNumberDiv.style.backgroundImage = 'url("./img/fireworks.gif")'; // GitHub temp fix
 
         let random = new Random(Random.engines.mt19937().autoSeed());
         let winNumber = random.integer(minValue, maxValue);
-        console.log('Random value from ' + minValue + ' to ' + maxValue+ ': ' + winNumber);
+        console.log('Random win value from ' + minValue + ' to ' + maxValue+ ': ' + winNumber);
         // randomNumberDiv.classList.add('fireworks');
         setTimeout(function() { winNumberSpan.textContent = winNumber; }, 500);
         setTimeout(function() {
