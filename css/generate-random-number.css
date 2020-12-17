@@ -20,7 +20,7 @@
 }
 .logo {
   width: 50%;
-  opacity: 0.05;
+  /* opacity: 0.05; */
 }
 #random_number {
   height: 30vh;
