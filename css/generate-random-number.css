@@ -12,6 +12,11 @@
   border: var(--border-px) solid black;
   text-align: center;
 }
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  line-height: 1.1;
+}
 .range {
   width: 40px;
   font-size: 30px;
@@ -32,16 +37,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .fireworks {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 #win_number {
   margin-bottom: 10px;
   font-size: 50px;
   font-weight: bold;
   color: red;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  /* color: white; */
+  text-align: center;
 }
 .credentials {
   font-size: 12px;

@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(function() {
             // randomNumberDiv.classList.remove('fireworks');
             randomNumberDiv.style.backgroundImage = 'none';
-        }, 5500);
+        }, 5600);
 
     });
 
