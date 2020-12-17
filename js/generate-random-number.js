@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', () => {
         let maxValue = document.getElementById('upto').value;
 
         winNumberSpan.textContent = '';
-        randomNumberDiv.style.backgroundImage = 'url("/img/fireworks.gif?' + new Date().getTime() + '")';
+        // randomNumberDiv.style.backgroundImage = 'url("/img/fireworks.gif?' + new Date().getTime() + '")';
+        randomNumberDiv.style.backgroundImage = 'url("/img/fireworks.gif)'; // GitHub temp fix
 
         let random = new Random(Random.engines.mt19937().autoSeed());
         let winNumber = random.integer(minValue, maxValue);
