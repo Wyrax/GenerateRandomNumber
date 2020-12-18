@@ -6,7 +6,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	max-width: 320px;
+	max-width: 720px;
   height: auto;
   font-family: Arial, sans-serif;
   border: var(--border-px) solid black;
@@ -14,7 +14,7 @@
 }
 h2 {
   font-family: 'Pacifico', cursive;
-  font-size: 32px;
+  font-size: 42px;
   line-height: 1.1;
 }
 .range {
@@ -38,8 +38,8 @@ h2 {
   background-size: cover;
 }
 #win_number {
-  margin-bottom: 10px;
-  font-size: 50px;
+  /* margin-bottom: 10px; */
+  font-size: 100px;
   font-weight: bold;
   color: red;
 }
